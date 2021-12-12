@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+}
+
+@keyframes example {
+  from {
+    font-size: 0%;
+  }
+  to {
+    font-size: 4rem;
+  }
+}
+.titulo {
+  text-align-last: center;
+  font-size: 4rem;
+  animation-name: example;
+  animation-duration: 3s;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align-last: center;
+  font-size: 2rem;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+.type {
+  transition: all;
+  transition-duration: 1000ms;
+}
+
+.video {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
