@@ -52,4 +52,13 @@ h2 {
   transition: 500ms;
 }
 
+.nav-item {
+  text-transform: uppercase;
+}
+
+.nav-item li:hover li:active {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+}
+
 /*# sourceMappingURL=style.css.map */

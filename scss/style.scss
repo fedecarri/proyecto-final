@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     
-  }
-   
+  }   
   .navbar {
     background: linear-gradient(to right, rgba(48, 207, 208, 0.5), rgba(51, 8, 103, 0.5));
-  }
+      }
 
   @keyframes example {
     from {
@@ -53,4 +52,12 @@
 .card:hover {
   transform: scale(1.1);
   transition: 500ms;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  }
+.nav-item li:hover li:active {
+  background-color: rgba(0,0,0,.3);
+  transition: 0.4s;
 }
