@@ -16,14 +16,6 @@
     font-size: 4rem;
   }
 }
-.titulo {
-  text-align-last: center;
-  font-size: 4rem;
-  animation-name: example;
-  animation-duration: 3s;
-  margin-top: 20px;
-}
-
 h2 {
   text-align-last: center;
   font-size: 2rem;
@@ -55,7 +47,6 @@ h2 {
 .nav-item {
   text-transform: uppercase;
 }
-
 .nav-item li:hover li:active {
   background-color: rgba(0, 0, 0, 0.3);
   transition: 0.4s;
@@ -76,8 +67,7 @@ h2 {
   box-shadow: opx 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
 }
-
-.btn-wsp:hover {
+.btn-wsp :hover {
   text-decoration: none;
   color: #0df053;
   background: #fff;
