@@ -4,6 +4,8 @@
     box-sizing: border-box;
     
   }   
+  
+
   .navbar {
     background: linear-gradient(to right, rgba(48, 207, 208, 0.5), rgba(51, 8, 103, 0.5));
       }
@@ -85,3 +87,23 @@
   background: #fff;}
 }
 
+.ojo-img {
+  background-image: url("/Imagenes/wallhaven-pkgkkp.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   
+    .ojo-texto {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    
+
+  }
