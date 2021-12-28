@@ -13,12 +13,7 @@
       font-size: 0%;
     }
     to {
-      font-size: 4rem;
-    }
-  }
-  .titulo {
-    @mixin tituloStyle {      
-    }
+      font-size: 4rem; }
   }
   
   h2 {
@@ -31,6 +26,15 @@
     .type {
     transition: all;
     transition-duration: 1000ms;
+  }
+
+  .titulo {
+  text-align-last: center;
+    font-size: 4rem;
+    animation-name: example;
+    animation-duration: 3s;
+    margin-top: 20px;
+    
   }
   
 

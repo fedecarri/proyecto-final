@@ -28,6 +28,14 @@ h2 {
   transition-duration: 1000ms;
 }
 
+.titulo {
+  text-align-last: center;
+  font-size: 4rem;
+  animation-name: example;
+  animation-duration: 3s;
+  margin-top: 20px;
+}
+
 .video {
   text-align: center;
   margin-top: 50px;
