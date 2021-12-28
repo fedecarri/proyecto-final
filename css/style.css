@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  background: linear-gradient(to right, rgba(48, 207, 208, 0.5), rgba(51, 8, 103, 0.5));
-}
-
 @keyframes example {
   from {
     font-size: 0%;
@@ -52,14 +48,6 @@ h2 {
   transition: 500ms;
 }
 
-.nav-item {
-  text-transform: uppercase;
-}
-.nav-item li:hover li:active {
-  background-color: rgba(0, 0, 0, 0.3);
-  transition: 0.4s;
-}
-
 .btn-wsp {
   position: fixed;
   width: 55px;
@@ -97,6 +85,35 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.main-foot {
+  background-color: #1c2331;
+}
+.main-foot .sec-foot {
+  background-color: #7c4dff;
+}
+
+.hr-f {
+  width: 60px;
+  height: 2px;
+  background-color: #7c4dff;
+}
+
+.copy {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  background: linear-gradient(to right, rgba(48, 207, 208, 0.5), rgba(51, 8, 103, 0.5));
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+.nav-item li:hover li:active {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
 }
 
 /*# sourceMappingURL=style.css.map */

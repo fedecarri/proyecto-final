@@ -1,0 +1,23 @@
+$backFoot1: #7c4dff;
+$backFoot2: #1c2331;
+$width: 60px ;
+$height: 2px;
+$backFoot3: rgba(0, 0, 0, 0.2);
+
+.main-foot {
+    background-color: $backFoot2;
+
+    .sec-foot {
+        background-color: $backFoot1;
+    }
+}
+
+.hr-f {
+    width: $width;
+    height: $height;
+    background-color: $backFoot1;
+}
+
+.copy {
+    background-color: $backFoot3;
+}
