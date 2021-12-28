@@ -99,6 +99,11 @@ h2 {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+@media only screen and (max-width: 768px) {
+  .main-foot {
+    text-align: center;
+  }
+}
 .navbar {
   background: linear-gradient(to right, rgba(48, 207, 208, 0.5), rgba(51, 8, 103, 0.5));
 }

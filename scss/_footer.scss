@@ -21,3 +21,9 @@ $backFoot3: rgba(0, 0, 0, 0.2);
 .copy {
     background-color: $backFoot3;
 }
+
+@media only screen and (max-width: 768px) {
+    .main-foot {
+        text-align: center;
+    }
+}
