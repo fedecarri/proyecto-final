@@ -2,6 +2,8 @@
     padding: 0;
     box-sizing: border-box;}
 
+  
+
 .card:hover {
     transform: scale(1.1);
     transition: 500ms;
@@ -29,14 +31,7 @@
   }
 
 
-      @keyframes example {
-        from {
-          font-size: 0%;
-        }
-        to {
-          font-size: 4rem; }
-      }
-      
+  
       h2 {
         text-align-last: center;
         font-size: 3rem - 1;
@@ -80,4 +75,15 @@
   background-color: rgb(130, 141, 238);
   border: solid;
 }
+
+
+#conta1 {
+  text-align: justify;
+}
+
+.texto1 {
+  text-align: left;
+
+}
+
 
