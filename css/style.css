@@ -50,6 +50,10 @@ h2 {
   margin-top: 20px;
 }
 
+.row {
+  background-image: url(/Imagenes/optica.jpg);
+}
+
 .main-foot {
   background-color: #1c2331;
 }
