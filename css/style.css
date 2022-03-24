@@ -50,35 +50,6 @@ h2 {
   margin-top: 20px;
 }
 
-.video {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-.quienes-somos {
-  line-height: 30.5px;
-  font-size: 20px;
-  text-align: justify;
-}
-
-.dropc {
-  float: left;
-  font-size: 100px;
-  line-height: 1;
-  margin-right: 0.6rem;
-  background-color: #828dee;
-  border: solid;
-}
-
-#conta1 {
-  text-align: justify;
-}
-
-.texto1 {
-  text-align: left;
-}
-
 .main-foot {
   background-color: #1c2331;
 }
