@@ -3,6 +3,12 @@
     box-sizing: border-box;}
 
   
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Paprika';
+  border-left: 50px;
+  
+}
 
 .card:hover {
     transform: scale(1.1);
@@ -56,4 +62,8 @@
   #principal{
     background-image: url(/Imagenes/optica.jpg);
     
+  }
+
+  #barra {
+    margin-bottom: 50px;
   }
